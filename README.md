@@ -79,7 +79,7 @@ Hasil bersifat deskriptif, tanpa klaim signifikansi statistik atau sebab-akibat.
 └── presentasi/   # PowerPoint presentasi
 ```
 
-PPT memuat **11 slide utama dan 6 slide lampiran**, dengan nama/NIM anggota, catatan pembicara, sumber, dan tautan Colab. Untuk showcase, buka Colab sebelum presentasi agar hasil dapat langsung ditampilkan saat slide 11.
+[Versi Google Slides dengan template UGM](https://docs.google.com/presentation/d/1N3VmyHz9VIgpBjILIl8cpi6OA1671MAQaIVm7Zv9TL4/edit). PPT memuat **11 slide utama dan 6 slide lampiran**, dengan nama/NIM anggota, catatan pembicara, sumber, dan tautan Colab. Untuk showcase, buka Colab sebelum presentasi agar hasil dapat langsung ditampilkan saat slide 11.
 
 ## Daftar gambar
 
