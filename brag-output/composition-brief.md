@@ -1,1 +1,0 @@
-Five-minute tourism research presentation from brag plan and scenes_en.json. Use all five team credits, 300 seconds, English synthetic voice, four computed tourism charts, quiet licensed music, source attribution. Check before render, inspect charts and opening/closing, normalize audio, verify duration/decode and first-frame poster.
