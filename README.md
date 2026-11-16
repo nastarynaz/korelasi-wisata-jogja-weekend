@@ -68,13 +68,13 @@ Hasil bersifat deskriptif, tanpa klaim signifikansi statistik atau sebab-akibat.
 3. Ikuti penjelasan, kode, dan hasil dari atas ke bawah. Sepuluh gambar tampil langsung di notebook.
 4. Untuk menyimpan satu gambar, klik kanan gambar atau ambil PNG/PDF pada panel **Files** setelah analisis dijalankan. Tidak ada unduhan ZIP otomatis.
 
-[Salinan notebook di repositori](Kawasan%20Wisata%20Jogja%20Lebih%20Aktif%20Saat%20Akhir%20Pekan.ipynb) menyimpan kode dan output. Eksekusi ulang memerlukan internet; perubahan data pada Sheets dapat memengaruhi hasil.
+[Salinan notebook di repositori](Kawasan%20Wisata%20Jogja.ipynb) menyimpan kode dan output. Eksekusi ulang memerlukan internet; perubahan data pada Sheets dapat memengaruhi hasil.
 
 ## Isi repositori
 
 ```text
 ├── README.md
-├── Kawasan Wisata Jogja Lebih Aktif Saat Akhir Pekan.ipynb
+├── Kawasan Wisata Jogja.ipynb
 ├── gambar/       # 10 grafik PNG
 └── presentasi/   # PowerPoint presentasi
 ```
