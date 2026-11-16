@@ -1,0 +1,30 @@
+{
+  "verified_at_utc": "2026-11-16T05:08:15.143623+00:00",
+  "cache_policy": "Existing snapshots retained; delete a raw file to refresh.",
+  "sources": [
+    {
+      "file": "presence_kapanewon_hourly.csv",
+      "url": "https://zenodo.org/records/23157460/files/presence_kapanewon_hourly.csv?download=1",
+      "bytes": 12189908,
+      "sha256": "ae41c59f9496b28725316b21ca3a7f7f615c253ddcf5f78085b4f8c922fffe41"
+    },
+    {
+      "file": "JogjaPulse_README.txt",
+      "url": "https://zenodo.org/records/23157460/files/README.md?download=1",
+      "bytes": 19448,
+      "sha256": "1f31b7a411b8105e30f150ef74ab68e77fa88fcd1d8d9855370af2ffd9f2c2e8"
+    },
+    {
+      "file": "tier1_summary.csv",
+      "url": "https://zenodo.org/records/23157460/files/tier1_summary.csv?download=1",
+      "bytes": 230,
+      "sha256": "d58f20dc4f945e4a465e7cc87648a50aa25be88bbeae2cc38e304815334a65b5"
+    },
+    {
+      "file": "weather.json",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-7.80&longitude=110.37&start_date=2021-12-01&end_date=2022-02-15&daily=precipitation_sum,temperature_2m_mean&timezone=Asia%2FJakarta&models=era5",
+      "bytes": 2125,
+      "sha256": "77bf9e70795d7bba64430cdcfef43848c13d87e2b5d7bb2088aac43970eb7792"
+    }
+  ]
+}

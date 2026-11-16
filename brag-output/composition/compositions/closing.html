@@ -1,0 +1,23 @@
+<template>
+<style>
+#root { position:absolute; inset:0; background:#fff; color:#172f2d; font-family:Inter,sans-serif; }
+* { box-sizing:border-box; margin:0; }
+.scene { position:absolute; inset:0; background:#fff; }
+h1 { position:absolute; left:196px; top:112px; width:1528px; font-size:56px; font-weight:700; line-height:1.12; }
+.body { position:absolute; left:196px; top:300px; width:1528px; font-size:49px; line-height:1.6; color:#146b66; }
+img { position:absolute; left:196px; top:245px; width:1528px; height:520px; object-fit:contain; }
+.caption { position:absolute; left:196px; top:808px; width:1528px; height:145px; background:#eef5f4; padding:18px 24px; }
+.credits {position:absolute;left:196px;top:558px;width:1528px;font-size:28px;line-height:1.25;color:#172f2d;}
+.caption p {font-size:28px; line-height:1.35; color:#172f2d;}
+.source { position:absolute; left:196px; top:972px; width:1528px; font-size:28px; color:#435e5b; }
+</style>
+<div id="root" data-composition-id="closing" data-width="1920" data-height="1080">
+<div id="closing-scene" class="clip scene" data-start="0" data-duration="35" data-hold="true"><h1>A local question, a qualified answer</h1><p class="body">Kokap and Kretek: higher in both periods<br>Four cases: the direction changes<br>Area presence does not count attraction visitors</p><p class="credits">Voice: Kokoro af_heart · Music: Sascha Ende, ende.app (CC BY 4.0)</p><p class="source">Sources: JogjaPulse / UGM; Visiting Jogja / DIY Tourism Office. Case-study analysis.</p></div>
+<div id="closing-caption-0" class="clip caption" data-start="0.8000" data-duration="14.3568" data-track-index="2"><p>The answer is mixed. In this selected case study, Kokap and Kretek show higher mean daytime device presence on weekends in both sample periods. Four other areas do not show a consistent direction.</p></div><div id="closing-caption-1" class="clip caption" data-start="15.1568" data-duration="16.5321" data-track-index="2"><p>The finding is about observed regional activity, rather than destination attendance. Our public data references, notebook, maps, and charts make the calculations inspectable. A longer observation period and direct visitor data would be needed for stronger tourism conclusions.</p></div><div id="closing-caption-2" class="clip caption" data-start="31.6889" data-duration="0.8701" data-track-index="2"><p>Thank you.</p></div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#closing-scene h1',{opacity:1},{opacity:1,duration:34.99},0);
+window.__timelines['closing']=tl;
+</script>
+</template>

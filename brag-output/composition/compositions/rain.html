@@ -1,0 +1,23 @@
+<template>
+<style>
+#root { position:absolute; inset:0; background:#fff; color:#172f2d; font-family:Inter,sans-serif; }
+* { box-sizing:border-box; margin:0; }
+.scene { position:absolute; inset:0; background:#fff; }
+h1 { position:absolute; left:196px; top:112px; width:1528px; font-size:56px; font-weight:700; line-height:1.12; }
+.body { position:absolute; left:196px; top:300px; width:1528px; font-size:49px; line-height:1.6; color:#146b66; }
+img { position:absolute; left:196px; top:245px; width:1528px; height:520px; object-fit:contain; }
+.caption { position:absolute; left:196px; top:808px; width:1528px; height:145px; background:#eef5f4; padding:18px 24px; }
+.credits {position:absolute;left:196px;top:558px;width:1528px;font-size:28px;line-height:1.25;color:#172f2d;}
+.caption p {font-size:28px; line-height:1.35; color:#172f2d;}
+.source { position:absolute; left:196px; top:972px; width:1528px; font-size:28px; color:#435e5b; }
+</style>
+<div id="root" data-composition-id="rain" data-width="1920" data-height="1080">
+<div id="rain-scene" class="clip scene" data-start="0" data-duration="50" data-hold="true"><h1>Different directions across sample periods</h1><img id="rain-chart" src="assets/tourism_stability.png" alt="Different directions across sample periods" /><p class="source">Sources: JogjaPulse / UGM; Visiting Jogja / DIY Tourism Office. Case-study analysis.</p></div>
+<div id="rain-caption-0" class="clip caption" data-start="0.8000" data-duration="17.5201" data-track-index="2"><p>This plot compares the December weekend difference with the difference in January through mid-February. Every point represents one selected subdistrict. Kokap and Kretek fall in the positive quadrant because both comparisons are positive. The other four areas change signs.</p></div><div id="rain-caption-1" class="clip caption" data-start="18.3201" data-duration="12.1293" data-track-index="2"><p>We also repeat the calculation after removing December twenty-fifth, January first, and February first. This is a limited calendar check, not a complete holiday or pandemic adjustment.</p></div><div id="rain-caption-2" class="clip caption" data-start="30.4493" data-duration="14.8247" data-track-index="2"><p>The short observation window, different device samples, and changing application use limit interpretation. This analysis evaluates presence within an administrative region; it does not observe entry into an attraction or identify individual tourists.</p></div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#rain-scene h1',{opacity:1},{opacity:1,duration:49.99},0);
+window.__timelines['rain']=tl;
+</script>
+</template>
