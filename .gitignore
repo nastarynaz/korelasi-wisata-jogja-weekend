@@ -27,3 +27,5 @@ outputs/tourism/video-review/
 **/.hyperframes/
 **/node_modules/
 .ipynb_checkpoints/
+
+**/.waveform-cache/
